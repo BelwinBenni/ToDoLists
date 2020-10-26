@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_personal"
+        android:icon="@drawable/ic_personal"
+        android:title="Personal Tasks" />
+
+    <item
+        android:id="@+id/menu_work"
+        android:icon="@drawable/ic_work"
+        android:title="Work Appointments" />
+
+</menu>

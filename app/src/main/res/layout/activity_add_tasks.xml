@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTasksActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/addTaskToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Add new Task" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addTaskToolbar"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/addTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Task Name"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/addNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addTopic"
+                android:layout_margin="10dp"
+                android:hint="Short Description"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/addDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addNotes"
+                android:layout_margin="10dp"
+                android:focusable="false"
+                android:hint="Date"/>
+
+            <EditText
+                android:id="@+id/addTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addDate"
+                android:layout_margin="10dp"
+                android:focusable="false"
+                android:hint="Time"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addSaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addTime"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="Save" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

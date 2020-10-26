@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="statusBarBackground">@color/material_on_background_disabled</item>
+    </style>
+
+    <style name="ButtonToday">
+        <item name="background">@color/blueLight</item>
+    </style>
+    <style name="ButtonFuture">
+        <item name="background">@color/redLight</item>
+    </style>
+</resources>

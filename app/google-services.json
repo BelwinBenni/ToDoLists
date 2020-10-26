@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358897093917",
+    "firebase_url": "https://todo-belwinb.firebaseio.com",
+    "project_id": "todo-belwinb",
+    "storage_bucket": "todo-belwinb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358897093917:android:3833119eec2d51b453a5f4",
+        "android_client_info": {
+          "package_name": "com.bb.tododemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358897093917-8k3sl3c57q2no3i813ndtovot6rvg8v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSqONTrhkbsKhSCBt9si3yD2bAf__-yEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358897093917-8k3sl3c57q2no3i813ndtovot6rvg8v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

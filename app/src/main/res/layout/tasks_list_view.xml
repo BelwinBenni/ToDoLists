@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="2dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tasklistTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cousine"
+            android:text="Topic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tasklistNotes"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tasklistTopic"
+            android:fontFamily="@font/cousine"
+            android:text="Notes"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tasklistDateToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tasklistNotes"
+            android:fontFamily="@font/cousine"
+            android:inputType="datetime"
+            android:text="Jan 2020"
+            tools:ignore="TextViewEdits" />
+
+        <TextView
+            android:id="@+id/tasklistTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tasklistDateToDo"
+            android:fontFamily="@font/cousine"
+            android:inputType="time"
+            android:text="Time" />
+
+        <CheckBox
+            android:id="@+id/isFinishedCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:elevation="10dp"
+            android:fontFamily="@font/cousine"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
